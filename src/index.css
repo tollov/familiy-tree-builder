@@ -1,0 +1,22 @@
+:root {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --app-header-height: 3rem;
+  --app-header-grey: #4d4d4d;
+  --font-grey: #a7a7a7;
+}
+
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  user-select: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
